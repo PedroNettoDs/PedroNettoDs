@@ -1,16 +1,15 @@
-### Hi there 👋
+### Oie 👋, me chamdo Pedro Henrique Netto, mas pode me chamar de Netto.
 
-<!--
-**PedroNettoDs/PedroNettoDs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Atualmente tenho 20 anos e trabalho como suporte técnico para a [KS2 Soluções empresariais](https://www.linkedin.com/company/ks2solucoes).
+- 🌱 Estudando Phyton
+- 📫 contato@pedronettods.com.br
 
-Here are some ideas to get you started:
+- incentivado pelo meu supervisor e mentor [Rafael Oliveira](https://www.linkedin.com/in/rafael19/), criei vontade de aprender e criar automações em Phyton, ele cedendo acesso a diversas plataformas como Alura e Hashtag treinamentos, me deu forças e orientações de como me aperfeiçoar e desenvolver um projeto.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div>
+<img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
+</div>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroNettoDs&theme=blue-green">
