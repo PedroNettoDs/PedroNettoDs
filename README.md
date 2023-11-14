@@ -1,6 +1,6 @@
 ### Oie 👋, me chamdo Pedro Henrique Netto, mas pode me chamar de Netto.
 
-- 🔭 Atualmente tenho 20 anos e trabalho como suporte técnico para a [KS2 Soluções empresariais](https://www.linkedin.com/company/ks2solucoes).
+- 🔭 Atualmente tenho 20 anos e trabalho como analista de suporte técnico para a [Stone Co/Linx](https://www.linkedin.com/in/pedronettods/).
 - 🌱 Estudando Python
 - 📫 contato@pedronettods.com.br
 
