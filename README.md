@@ -1,7 +1,7 @@
 ### Oie 👋, me chamdo Pedro Henrique Netto, mas pode me chamar de Netto.
 
 - 🔭 Atualmente tenho 20 anos e trabalho como analista de suporte técnico para a [Stone Co/Linx](https://www.linkedin.com/in/pedronettods/).
-- 🌱 Estudando Python
+- 🌱 Estudando Redes de Computadores na [Faculdade de Tecnologia Bauru (Fatec)](https://fatecbauru.cps.sp.gov.br/)
 - 📫 contato@pedronettods.com.br
 
 - incentivado pelo meu supervisor e mentor [Rafael Oliveira](https://www.linkedin.com/in/rafael19/), criei vontade de aprender e criar automações em Python, ele cedendo acesso a diversas plataformas como Alura e Hashtag treinamentos, me deu forças e orientações de como me aperfeiçoar e desenvolver um projeto.
