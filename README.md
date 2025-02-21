@@ -1,6 +1,6 @@
 ### Oie 👋, me chamdo Pedro Henrique Netto, mas pode me chamar de Netto.
 
-- 🔭 Atualmente tenho 20 anos e trabalho como analista de suporte técnico para a [Stone Co/Linx](https://www.linkedin.com/in/pedronettods/).
+- 🔭 Atualmente tenho 22 anos e trabalho como analista de suporte técnico para a [Stone Co/Linx](https://www.linkedin.com/in/pedronettods/).
 - 🌱 Estudando Redes de Computadores na [Faculdade de Tecnologia Bauru (Fatec)](https://fatecbauru.cps.sp.gov.br/)
 - 📫 contato@pedronettods.com.br
 
