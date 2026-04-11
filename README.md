@@ -64,8 +64,10 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=PedroNettoDs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroNettoDs&layout=compact&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/PedroNettoDs">
+    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=PedroNettoDs&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+    <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PedroNettoDs&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  </a>
 </p>
 
 <p align="center">
