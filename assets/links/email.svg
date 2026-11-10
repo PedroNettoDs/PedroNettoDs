@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34" role="img" aria-label="e-mail">
+<style>text{font-family:'IBM Plex Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}</style>
+<rect x=".5" y=".5" width="109" height="33" rx="4" fill="#061018" stroke="#ffb641" stroke-opacity=".7"/>
+<text x="16" y="21.5" font-size="13" font-weight="700" fill="#ffb641">[@]</text>
+<text x="47.4" y="21.5" font-size="13" fill="#a9e4f2">e-mail</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="222" viewBox="0 0 480 222" role="img" aria-labelledby="t d">
+<title id="t">Capitaine ERP — erp fiscal</title>
+<desc id="d">ERP local que emite NF-e 55 e importa pedidos do Mercado Livre e da Shopee. Sem servidor, sem SaaS.</desc>
+<style>
+text{font-family:'IBM Plex Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+.b{font-weight:700}
+.flow{stroke-dasharray:3 7;animation:flow 1.1s linear infinite}
+.flow.r{animation-direction:reverse}
+.blink{animation:blink 1.05s steps(1) infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+.roll{animation:roll 8s linear infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.eq{transform-box:fill-box;transform-origin:50% 100%;animation:eq 1.2s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(3.2);opacity:0}}
+@keyframes roll{from{transform:translateY(-90px)}to{transform:translateY(222px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes eq{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="clip"><rect x="1" y="1" width="478" height="220" rx="10"/></clipPath>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f2731" stroke-width=".6"/></pattern>
+<pattern id="scan" width="8" height="3" patternUnits="userSpaceOnUse"><rect width="8" height="1" fill="#000" opacity=".2"/></pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset="62%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".5"/></radialGradient>
+<linearGradient id="rollg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#78dcff" stop-opacity="0"/><stop offset=".5" stop-color="#78dcff" stop-opacity=".05"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowS" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="478" height="220" rx="10" fill="#03080c"/>
+<g clip-path="url(#clip)">
+<rect width="480" height="222" fill="url(#grid)" opacity=".5"/>
+<rect width="480" height="30" fill="#061018"/><path d="M0 30.5H480" stroke="#0f2731"/><circle cx="20" cy="15.0" r="3.5" fill="#ffb641" class="pulse" filter="url(#glowS)"/><text x="32" y="19.5" font-size="12.5" fill="#79b8c8">~/projetos/capitaine</text><text x="462" y="19.0" font-size="11" fill="#4f8d9c" text-anchor="end">público</text>
+<rect x="1" y="30" width="3" height="192" fill="#e6d58a"/>
+<circle cx="405.8" cy="15.0" r="3.2" fill="#4f8d9c" class="ping"/>
+<circle cx="405.8" cy="15.0" r="3.2" fill="#4f8d9c" filter="url(#glowS)"/>
+<text x="24" y="58" font-size="11.5" fill="#e6d58a" letter-spacing="1">ERP FISCAL</text>
+<text x="24" y="88" font-size="22" class="b" fill="#a9e4f2" filter="url(#glowS)">Capitaine ERP</text>
+<text x="24" y="116" font-size="13" fill="#79b8c8">ERP local que emite NF-e 55 e importa</text>
+<text x="24" y="135" font-size="13" fill="#79b8c8">pedidos do Mercado Livre e da Shopee.</text>
+<text x="24" y="154" font-size="13" fill="#79b8c8">Sem servidor, sem SaaS.</text>
+<rect x="24" y="188" width="55.6" height="21" rx="3" fill="#e6d58a" fill-opacity=".08" stroke="#e6d58a" stroke-opacity=".7"/><text x="51.8" y="202.5" font-size="11" fill="#e6d58a" text-anchor="middle">Python</text>
+<rect x="85.6" y="188" width="42.4" height="21" rx="3" fill="#e6d58a" fill-opacity=".08" stroke="#e6d58a" stroke-opacity=".7"/><text x="106.8" y="202.5" font-size="11" fill="#e6d58a" text-anchor="middle">NF-e</text>
+<rect x="134.0" y="188" width="49.0" height="21" rx="3" fill="#e6d58a" fill-opacity=".08" stroke="#e6d58a" stroke-opacity=".7"/><text x="158.5" y="202.5" font-size="11" fill="#e6d58a" text-anchor="middle">SEFAZ</text>
+<rect x="189.0" y="188" width="55.6" height="21" rx="3" fill="#e6d58a" fill-opacity=".08" stroke="#e6d58a" stroke-opacity=".7"/><text x="216.8" y="202.5" font-size="11" fill="#e6d58a" text-anchor="middle">Fernet</text>
+<g class="spin"><circle cx="408" cy="104" r="26" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="408" cy="104" r="8" fill="none" stroke="#e6d58a" stroke-width="1.6"/><path d="M416.0 104.0L444.0 104.0" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="447.0" cy="104.0" r="3.2" fill="#e6d58a"/><path d="M413.7 109.7L433.5 129.5" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="435.6" cy="131.6" r="3.2" fill="#e6d58a"/><path d="M408.0 112.0L408.0 140.0" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="408.0" cy="143.0" r="3.2" fill="#e6d58a"/><path d="M402.3 109.7L382.5 129.5" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="380.4" cy="131.6" r="3.2" fill="#e6d58a"/><path d="M400.0 104.0L372.0 104.0" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="369.0" cy="104.0" r="3.2" fill="#e6d58a"/><path d="M402.3 98.3L382.5 78.5" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="380.4" cy="76.4" r="3.2" fill="#e6d58a"/><path d="M408.0 96.0L408.0 68.0" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="408.0" cy="65.0" r="3.2" fill="#e6d58a"/><path d="M413.7 98.3L433.5 78.5" fill="none" stroke="#e6d58a" stroke-width="1.6"/><circle cx="435.6" cy="76.4" r="3.2" fill="#e6d58a"/></g>
+
+<rect width="480" height="222" fill="url(#scan)"/>
+<rect class="roll" width="480" height="90" fill="url(#rollg)"/>
+<rect width="480" height="222" fill="url(#vig)"/>
+</g>
+<rect x="1" y="1" width="478" height="220" rx="10" fill="none" stroke="#1a4250"/>
+</svg>

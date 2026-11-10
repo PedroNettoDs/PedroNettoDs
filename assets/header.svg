@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="t d">
+<title id="t">Pedro Netto — Analista de Infraestrutura II · Fundador da AttanoTech</title>
+<desc id="d">Terminal em estética CRT com o nome de Pedro Netto, cargo, áreas (linux, redes, cloud, ci/cd, python, ia local) e um radar animado mostrando a topologia do Alfred: ollama, shell, rag, vault, e-mail e whatsapp ligados ao núcleo.</desc>
+<style>
+text{font-family:'IBM Plex Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+.b{font-weight:700}
+.flow{stroke-dasharray:3 7;animation:flow 1.1s linear infinite}
+.flow.r{animation-direction:reverse}
+.blink{animation:blink 1.05s steps(1) infinite}
+.pulse{animation:pulse 2.6s ease-in-out infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
+.roll{animation:roll 8s linear infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.eq{transform-box:fill-box;transform-origin:50% 100%;animation:eq 1.2s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(3.2);opacity:0}}
+@keyframes roll{from{transform:translateY(-90px)}to{transform:translateY(320px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes eq{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="clip"><rect x="1" y="1" width="998" height="318" rx="12"/></clipPath>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0f2731" stroke-width=".6"/></pattern>
+<pattern id="scan" width="8" height="3" patternUnits="userSpaceOnUse"><rect width="8" height="1" fill="#000" opacity=".2"/></pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset="62%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".5"/></radialGradient>
+<linearGradient id="rollg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#78dcff" stop-opacity="0"/><stop offset=".5" stop-color="#78dcff" stop-opacity=".05"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowS" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="998" height="318" rx="12" fill="#03080c"/>
+<g clip-path="url(#clip)">
+<rect width="1000" height="320" fill="url(#grid)" opacity=".5"/>
+<rect width="1000" height="34" fill="#061018"/><path d="M0 34.5H1000" stroke="#0f2731"/><circle cx="20" cy="17.0" r="3.5" fill="#ffb641" class="pulse" filter="url(#glowS)"/><text x="32" y="21.5" font-size="12.5" fill="#79b8c8">tty1 ─ netto@kubuntu: ~/perfil</text><text x="982" y="21.0" font-size="11.5" fill="#4f8d9c" text-anchor="end">uptime 3+ anos em infra  │  loc bauru/sp  │  agora é melhor que nunca</text>
+<clipPath id="type"><rect x="36" y="62" width="400" height="28"><animate attributeName="width" values="0;0;400" keyTimes="0;.2;1" dur="1.8s" fill="freeze"/></rect></clipPath>
+<text x="40" y="82" font-size="15" clip-path="url(#type)" xml:space="preserve"><tspan fill="#ffb641">netto@kubuntu</tspan><tspan fill="#4f8d9c">:</tspan><tspan fill="#4fd8f2">~</tspan><tspan fill="#4f8d9c">$ </tspan><tspan fill="#a9e4f2">whoami &amp;&amp; cat perfil.md</tspan></text>
+<text x="38" y="152" font-size="60" class="b" letter-spacing="6" fill="#a9e4f2" filter="url(#glow)">PEDRO NETTO</text>
+<text x="40" y="190" font-size="16" fill="#79b8c8">Analista de Infraestrutura II · Fundador da AttanoTech</text>
+<rect x="40" y="210" width="57.5" height="26" rx="3" fill="#ffb641" fill-opacity=".08" stroke="#ffb641" stroke-opacity=".7"/><text x="68.8" y="227.5" font-size="12.5" fill="#ffb641" text-anchor="middle">linux</text>
+<rect x="105.5" y="210" width="57.5" height="26" rx="3" fill="#4fd8f2" fill-opacity=".08" stroke="#4fd8f2" stroke-opacity=".7"/><text x="134.2" y="227.5" font-size="12.5" fill="#4fd8f2" text-anchor="middle">redes</text>
+<rect x="171.0" y="210" width="57.5" height="26" rx="3" fill="#7ee8c4" fill-opacity=".08" stroke="#7ee8c4" stroke-opacity=".7"/><text x="199.8" y="227.5" font-size="12.5" fill="#7ee8c4" text-anchor="middle">cloud</text>
+<rect x="236.5" y="210" width="57.5" height="26" rx="3" fill="#6fa8ff" fill-opacity=".08" stroke="#6fa8ff" stroke-opacity=".7"/><text x="265.2" y="227.5" font-size="12.5" fill="#6fa8ff" text-anchor="middle">ci/cd</text>
+<rect x="302.0" y="210" width="65.0" height="26" rx="3" fill="#e6d58a" fill-opacity=".08" stroke="#e6d58a" stroke-opacity=".7"/><text x="334.5" y="227.5" font-size="12.5" fill="#e6d58a" text-anchor="middle">python</text>
+<rect x="375.0" y="210" width="80.0" height="26" rx="3" fill="#b9a3ff" fill-opacity=".08" stroke="#b9a3ff" stroke-opacity=".7"/><text x="415.0" y="227.5" font-size="12.5" fill="#b9a3ff" text-anchor="middle">ia local</text>
+<text x="40" y="284" font-size="15" xml:space="preserve"><tspan fill="#ffb641">&gt; </tspan><tspan fill="#79b8c8">infraestrutura que pensa — e roda local</tspan></text>
+<rect x="413.0" y="270" width="9" height="17" fill="#ffb641" class="blink" filter="url(#glowS)"/>
+<g opacity=".95">
+<circle cx="800" cy="178" r="108" fill="#061018" fill-opacity=".6" stroke="#1a4250"/>
+<circle cx="800" cy="178" r="88" fill="none" stroke="#1a4250" stroke-dasharray="2 5" opacity=".7"/>
+<circle cx="800" cy="178" r="44" fill="none" stroke="#0f2731" />
+<path d="M692 178H908M800 70V286" stroke="#0f2731" />
+<path d="M908.0 178.0L920.0 178.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M907.4 189.3L913.4 189.9" stroke="#1a4250" stroke-width="1"/>
+<path d="M905.6 200.5L911.5 201.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M902.7 211.4L908.4 213.2" stroke="#1a4250" stroke-width="1"/>
+<path d="M898.7 221.9L904.1 224.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M893.5 232.0L903.9 238.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M887.4 241.5L892.2 245.0" stroke="#1a4250" stroke-width="1"/>
+<path d="M880.3 250.3L884.7 254.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M872.3 258.3L876.3 262.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M863.5 265.4L867.0 270.2" stroke="#1a4250" stroke-width="1"/>
+<path d="M854.0 271.5L860.0 281.9" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M843.9 276.7L846.4 282.1" stroke="#1a4250" stroke-width="1"/>
+<path d="M833.4 280.7L835.2 286.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M822.5 283.6L823.7 289.5" stroke="#1a4250" stroke-width="1"/>
+<path d="M811.3 285.4L811.9 291.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M800.0 286.0L800.0 298.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M788.7 285.4L788.1 291.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M777.5 283.6L776.3 289.5" stroke="#1a4250" stroke-width="1"/>
+<path d="M766.6 280.7L764.8 286.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M756.1 276.7L753.6 282.1" stroke="#1a4250" stroke-width="1"/>
+<path d="M746.0 271.5L740.0 281.9" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M736.5 265.4L733.0 270.2" stroke="#1a4250" stroke-width="1"/>
+<path d="M727.7 258.3L723.7 262.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M719.7 250.3L715.3 254.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M712.6 241.5L707.8 245.0" stroke="#1a4250" stroke-width="1"/>
+<path d="M706.5 232.0L696.1 238.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M701.3 221.9L695.9 224.4" stroke="#1a4250" stroke-width="1"/>
+<path d="M697.3 211.4L691.6 213.2" stroke="#1a4250" stroke-width="1"/>
+<path d="M694.4 200.5L688.5 201.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M692.6 189.3L686.6 189.9" stroke="#1a4250" stroke-width="1"/>
+<path d="M692.0 178.0L680.0 178.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M692.6 166.7L686.6 166.1" stroke="#1a4250" stroke-width="1"/>
+<path d="M694.4 155.5L688.5 154.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M697.3 144.6L691.6 142.8" stroke="#1a4250" stroke-width="1"/>
+<path d="M701.3 134.1L695.9 131.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M706.5 124.0L696.1 118.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M712.6 114.5L707.8 111.0" stroke="#1a4250" stroke-width="1"/>
+<path d="M719.7 105.7L715.3 101.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M727.7 97.7L723.7 93.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M736.5 90.6L733.0 85.8" stroke="#1a4250" stroke-width="1"/>
+<path d="M746.0 84.5L740.0 74.1" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M756.1 79.3L753.6 73.9" stroke="#1a4250" stroke-width="1"/>
+<path d="M766.6 75.3L764.8 69.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M777.5 72.4L776.3 66.5" stroke="#1a4250" stroke-width="1"/>
+<path d="M788.7 70.6L788.1 64.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M800.0 70.0L800.0 58.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M811.3 70.6L811.9 64.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M822.5 72.4L823.7 66.5" stroke="#1a4250" stroke-width="1"/>
+<path d="M833.4 75.3L835.2 69.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M843.9 79.3L846.4 73.9" stroke="#1a4250" stroke-width="1"/>
+<path d="M854.0 84.5L860.0 74.1" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M863.5 90.6L867.0 85.8" stroke="#1a4250" stroke-width="1"/>
+<path d="M872.3 97.7L876.3 93.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M880.3 105.7L884.7 101.7" stroke="#1a4250" stroke-width="1"/>
+<path d="M887.4 114.5L892.2 111.0" stroke="#1a4250" stroke-width="1"/>
+<path d="M893.5 124.0L903.9 118.0" stroke="#4f8d9c" stroke-width="1.4"/>
+<path d="M898.7 134.1L904.1 131.6" stroke="#1a4250" stroke-width="1"/>
+<path d="M902.7 144.6L908.4 142.8" stroke="#1a4250" stroke-width="1"/>
+<path d="M905.6 155.5L911.5 154.3" stroke="#1a4250" stroke-width="1"/>
+<path d="M907.4 166.7L913.4 166.1" stroke="#1a4250" stroke-width="1"/>
+<g style="transform-origin:800px 178px;animation:spin 7s linear infinite"><path d="M800 178L908 178A108 108 0 0 1 885.1 244.5Z" fill="#ffb641" fill-opacity=".09"/><path d="M800 178L885.1 244.5" stroke="#ffb641" stroke-opacity=".55" stroke-width="1.2"/></g>
+<polygon points="800.0,104.0 864.1,141.0 864.1,215.0 800.0,252.0 735.9,215.0 735.9,141.0" fill="none" stroke="#1a4250" stroke-dasharray="1 4"/>
+<path d="M800 178L800.0 104.0" stroke="#b9a3ff" stroke-opacity=".75" stroke-width="1.3" class="flow"/>
+<path d="M800 178L864.1 141.0" stroke="#ffb641" stroke-opacity=".75" stroke-width="1.3" class="flow r"/>
+<path d="M800 178L864.1 215.0" stroke="#7ee8c4" stroke-opacity=".75" stroke-width="1.3" class="flow"/>
+<path d="M800 178L800.0 252.0" stroke="#e6d58a" stroke-opacity=".75" stroke-width="1.3" class="flow r"/>
+<path d="M800 178L735.9 215.0" stroke="#6fa8ff" stroke-opacity=".75" stroke-width="1.3" class="flow"/>
+<path d="M800 178L735.9 141.0" stroke="#4fd8f2" stroke-opacity=".75" stroke-width="1.3" class="flow r"/>
+<circle cx="800.0" cy="104.0" r="4" fill="#b9a3ff" class="ping" style="animation-delay:0.00s"/>
+<circle cx="800.0" cy="104.0" r="4.5" fill="#b9a3ff" filter="url(#glowS)"/>
+<text x="800.0" y="88.0" font-size="11.5" fill="#79b8c8" text-anchor="middle">ollama</text>
+<circle cx="864.1" cy="141.0" r="4" fill="#ffb641" class="ping" style="animation-delay:0.43s"/>
+<circle cx="864.1" cy="141.0" r="4.5" fill="#ffb641" filter="url(#glowS)"/>
+<text x="879.7" y="136.0" font-size="11.5" fill="#79b8c8" text-anchor="start">shell</text>
+<circle cx="864.1" cy="215.0" r="4" fill="#7ee8c4" class="ping" style="animation-delay:0.86s"/>
+<circle cx="864.1" cy="215.0" r="4.5" fill="#7ee8c4" filter="url(#glowS)"/>
+<text x="879.7" y="228.0" font-size="11.5" fill="#79b8c8" text-anchor="start">rag</text>
+<circle cx="800.0" cy="252.0" r="4" fill="#e6d58a" class="ping" style="animation-delay:1.29s"/>
+<circle cx="800.0" cy="252.0" r="4.5" fill="#e6d58a" filter="url(#glowS)"/>
+<text x="800.0" y="282.0" font-size="11.5" fill="#79b8c8" text-anchor="middle">vault</text>
+<circle cx="735.9" cy="215.0" r="4" fill="#6fa8ff" class="ping" style="animation-delay:1.72s"/>
+<circle cx="735.9" cy="215.0" r="4.5" fill="#6fa8ff" filter="url(#glowS)"/>
+<text x="720.3" y="228.0" font-size="11.5" fill="#79b8c8" text-anchor="end">e-mail</text>
+<circle cx="735.9" cy="141.0" r="4" fill="#4fd8f2" class="ping" style="animation-delay:2.15s"/>
+<circle cx="735.9" cy="141.0" r="4.5" fill="#4fd8f2" filter="url(#glowS)"/>
+<text x="720.3" y="136.0" font-size="11.5" fill="#79b8c8" text-anchor="end">whatsapp</text>
+<circle cx="800" cy="178" r="22" fill="#03080c" stroke="#ffb641" stroke-width="1.5" filter="url(#glowS)"/>
+<circle cx="800" cy="178" r="22" fill="none" stroke="#ffb641" class="ping" style="animation-duration:3.2s"/>
+<text x="800" y="182" font-size="11" class="b" fill="#ffb641" text-anchor="middle">alfred</text>
+</g>
+<text x="982" y="309" font-size="10.5" fill="#4f8d9c" text-anchor="end" opacity=".85">fig.01 — topologia do alfred</text>
+<rect width="1000" height="320" fill="url(#scan)"/>
+<rect class="roll" width="1000" height="90" fill="url(#rollg)"/>
+<rect width="1000" height="320" fill="url(#vig)"/>
+</g>
+<rect x="1" y="1" width="998" height="318" rx="12" fill="none" stroke="#1a4250"/>
+</svg>
